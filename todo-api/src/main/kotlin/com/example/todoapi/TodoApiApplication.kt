@@ -1,11 +1,11 @@
-package com.example.todoappapi
+package com.example.todoapi
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class TodoAppApiApplication
+class TodoApiApplication
 
 fun main(args: Array<String>) {
-	runApplication<TodoAppApiApplication>(*args)
+	runApplication<TodoApiApplication>(*args)
 }
